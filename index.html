@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Neel Sundar</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="astro-bg">
+    <div class="sun"></div>
+    <div class="moon"></div>
+  </div>
+<nav>
+    <div class="nav-links">
+      <a href="index.html">Neel Sundar</a>
+      <a href="career.html">career</a>
+      <a href="assets/images/Neel Sundar Resume.pdf" target = "_blank">resume</a>
+      <a href="about.html">about</a>
+    </div>
+
+    <div class="theme-switch">
+  <input type="checkbox" id="theme-toggle" />
+  <label for="theme-toggle">
+    <span class="toggle-circle"></span>
+  </label>
+  </div>
+</nav>
+
+
+
+<section class="hero-identity">
+  <div class="hero-identity-container">
+    <h1 class="hero-name" id="name-toggle">
+      Neel Sundar
+    </h1>
+
+    <h2 class="home-role">
+      User-Centered <span class="swap-word"></span>
+    </h2>
+  </div>
+  <div class="scroll-indicator">
+  ↓
+  </div>
+</section>
+
+<section class="featured-work" id ="projects">
+  <h2 class="section-title">Selected Work</h2>
+
+  <div class="project-list">
+
+    <!-- Project Item -->
+    <a href="projects/igem.html" class="project-item">
+      
+      <div class="project-image">
+        <img src="assets/images/igem-preview.png" alt="Washington iGEM website preview">
+      </div>
+
+      <div class="project-info">
+        <h3>My Work At Washington iGEM</h3>
+        <p>I lead the WebDev subteam, designing and building the team’s competition website, online resources, and visual identity.</p>
+        <span class="project-link">Leadership // Design & Development // College Club</span>
+      </div>
+
+    </a>
+
+    <!---HCDE302-303--->
+    <a href="projects/dallydeck.html" class="project-item">
+      
+      <div class="project-image">
+        <img src="assets/images/Dallydeck-preview.png" alt="Dallydeck product preview">
+      </div>
+
+      <div class="project-info">
+        <h3>Creating DALLYDECK</h3>
+        <p>Collaborated on a team of four to design DALLYDECK, a physical card deck & companion app that helps UW students plan meaningful visits with friends & family.</p>
+        <span class="project-link">Product Design // User Research // Studio Project</span>
+      </div>
+
+    </a>
+    <!---HCDE315 Tool for Colorblond Electrical Engineers-->
+    <a href="projects/resistorcolorsheet.html" class="project-item">
+      
+      <div class="project-image">
+        <img src="assets/images/Prototype315.png" alt="Resistor Sheet product preview">
+      </div>
+
+      <div class="project-info">
+        <h3>Designing Identification Tools for Colorblind Students</h3>
+        <p>Led a partner-centered design project to create an accessible resistor identification sheet for colorblind electrical engineering students.</p>
+        <span class="project-link">Project Leader // Inclusive Design // Studio Project</span>
+      </div>
+
+    </a>
+    
+    <!-- Duplicate this block to add more projects -->
+
+  </div>
+</section>
+
+
+
+<div class="sword-scene">
+  <img src="assets/images/BlackSwordDrawing.svg"
+       class="sword-img sword-sun"
+       alt="Sword">
+
+  <img src="assets/images/WhiteSwordDrawing.svg"
+       class="sword-img sword-moon"
+       alt="Sword">
+  <div class="scroll-percentage" id="scrollPercentage">0%</div>
+  <div class="fire"></div>
+</div>
+
+
+  <script src="js/main.js"></script>
+</body>
+</html>

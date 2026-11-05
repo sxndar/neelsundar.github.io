@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Career | Neel Sundar</title>
+  <title>Washington iGEM | Neel Sundar</title>
 
   <link rel="stylesheet" href="../css/styles.css" />
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600&display=swap" rel="stylesheet">
@@ -21,7 +21,7 @@
   <div class="nav-links">
     <a href="../index.html">Neel Sundar</a>
     <a href="../career.html">career</a>
-    <a href="../assets/images/Neel Sundar Resume.pdf" target = "_blank">resume</a>
+    <a href="../assets/images/Neel Sundar Resume.pdf" target="_blank">resume</a>
     <a href="../about.html">about</a>
   </div>
 
@@ -44,13 +44,12 @@
 Lead Web Development • University of Washington iGEM
 </p>
 
-<p hidden><img class="case-hero" src="../assets/images/igem-preview.png" alt ="Washington iGEM team logo"></p>
-
+<p><img class="case-hero" src="../assets/images/igem-preview.png" alt="Washington iGEM team logo" style="max-width: 220px;"></p>
 <p class="case-intro">
-As the Web Development Subteam Lead for the University of Washington iGEM team, I design and build the team’s digital presence. My work focuses on translating complex synthetic biology research into clear, accessible digital experiences for judges, researchers, and prospective members.
+As the Web Development Subteam Lead for the University of Washington iGEM team, I design and build the team's digital presence. My work focuses on translating complex synthetic biology research into clear, accessible digital experiences for judges, researchers, and prospective members.
 </p>
 
-<!----- OVerview-->
+<!----- OVERVIEW -->
 
 <div class="case-summary">
 
@@ -75,7 +74,7 @@ As the Web Development Subteam Lead for the University of Washington iGEM team, 
 
 <div>
 <strong>Tools</strong>
-<p>HTML, CSS, JavaScript </p>
+<p>HTML, CSS, JavaScript</p>
 </div>
 
 </div>
@@ -91,7 +90,7 @@ The University of Washington iGEM team conducts research in synthetic biology, f
 </div>
 
 
-<!----PROBLEM-->
+<!---- PROBLEM -->
 <div class="case-section">
 
 <h2>The Challenge</h2>
@@ -114,16 +113,39 @@ Synthetic biology research is highly technical, making it difficult to communica
 </div>
 
 
-<!---MAIN WEBSITE-->
+<!--- COMP WIKI 2026 -->
+<div class="case-section">
+
+<h2>2026 Competition Wiki: HedgehogSense</h2>
+
+<a href="https://2026.igem.wiki/washington/" target="_blank">
+<img src="../assets/images/igem-wiki-2026.png" alt="Washington iGEM 2026 wiki homepage">
+</a>
+
+<p>
+For 2026, I led the Web Development team in designing and building the team's competition wiki for <strong>HedgehogSense</strong>, our project on minibinders that tune how the MEGF8, MOSMO, and MGRN1 complex degrades Smoothened, a tunable approach to Hedgehog signaling.
+</p>
+
+<p>
+Building on the experience from 2025, I planned the wiki from the start instead of stepping in partway through. I coordinated with the research teams to make sure their work was represented accurately, while shaping the site so readers outside the field could still follow the project.
+</p>
+
+<p>
+<a href="https://2026.igem.wiki/washington/" target="_blank">View the live 2026 wiki →</a>
+</p>
+
+</div>
+
+
+<!--- MAIN WEBSITE -->
 
 <div class="case-section">
 
 <h2>Main Team Website</h2>
 
 <a href="https://students.washington.edu/uwigem/" target="_blank">
-<img src="../assets/images/igem-main-website.png">
+<img src="../assets/images/igem-main-website.png" alt="Washington iGEM main team website">
 </a>
-<a class="case-button" href="SITE_LINK" target="_blank"></a>
 
 <p>
 The 2026 WebDev team redesigned and updated the Washington iGEM team website to better communicate the team's research, structure, and recruitment opportunities.
@@ -134,20 +156,28 @@ The redesign focused on improving navigation, strengthening visual hierarchy, an
 </p>
 
 <p>
-The site was developed using <strong>HTML, CSS, and JavaScript</strong> skills we aimed to improve for our upcoming wiki. We structured the codebase to make the site maintainable so that future teams can easily update content.
+I specifically focused on the look and usability of the website, following a cohesive theme with clear animations.
+</p>
+
+<p>
+The site was developed using <strong>HTML, CSS, and JavaScript</strong>, skills we aimed to improve for our upcoming wiki. We structured the codebase to make the site maintainable so that future teams can easily update content.
+</p>
+
+<p>
+<a href="https://students.washington.edu/uwigem/" target="_blank">View the live team website →</a>
 </p>
 
 </div>
 
 
-<!---COMP WIKI 2025-->
+<!--- COMP WIKI 2025 -->
 <div class="case-section">
 
 <h2>2025 Competition Wiki</h2>
 
 <a href="https://2025.igem.wiki/washington/" target="_blank">
-<img src="../assets/images/igem-wiki-2025.png">
-</a><a class="case-button" href="SITE_LINK" target="_blank"></a>
+<img src="../assets/images/igem-wiki-2025.png" alt="Washington iGEM 2025 wiki homepage">
+</a>
 
 <p>
 For the 2025 iGEM project, I initially joined the design team but later stepped into a leadership role when the web development lead unexpectedly left the team.
@@ -165,7 +195,12 @@ The wiki required organizing large amounts of technical information into a clear
 Our project ultimately earned a <strong>Silver Medal</strong> at the iGEM Grand Jamboree.
 </p>
 
+<p>
+<a href="https://2025.igem.wiki/washington/" target="_blank">View the live 2025 wiki →</a>
+</p>
+
 </div>
+
 
 <div class="case-section">
 
@@ -211,7 +246,14 @@ The project strengthened my skills in both front-end development and human-cente
   <div class="scroll-percentage" id="scrollPercentage">0%</div>
   <div class="fire"></div>
 </div>
-  <script src="../js/main.js"></script>
+
+<!-- IMAGE ZOOM MODAL -->
+<div id="image-modal" class="image-modal">
+  <span class="close-modal">&times;</span>
+  <img class="modal-content" id="modal-img">
+</div>
+
+<script src="../js/main.js"></script>
 
 </body>
 </html>
